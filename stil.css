@@ -1,0 +1,300 @@
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Open Sans', sans-serif;
+      color: #07043B;
+      line-height: 1.5;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    header {
+      padding: 40px 0;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      width: 120px;
+    }
+    .nav-links {
+      display: flex;
+      list-style: none;
+    }
+    .nav-links li {
+      margin-left: 30px;
+    }
+    .nav-links a {
+      text-decoration: none;
+      color: #07043B;
+      transition: color 0.3s;
+    }
+    .nav-links a:hover {
+      color: #3065F8;
+    }
+    .ust {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      gap: 40px;
+      padding: 40px 0 80px;
+    }
+    .ust-content {
+      flex: 1;
+    }
+    .ust-image {
+      flex: 1;
+    }
+    .ust-image img {
+      width: 100%;
+      height: auto;
+    }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+    }
+    .ust-content p {
+      margin-bottom: 30px;
+      font-size: 16px;
+    }
+    .form-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .form-control {
+      flex: 1;
+      min-width: 200px;
+      padding: 12px 15px;
+      border: 1px solid #07043B;
+      border-radius: 3px;
+      font-family: 'Open Sans', sans-serif;
+      outline: none;
+    }
+    .form-control::placeholder {
+      color: #C2C7D9;
+    }
+    .btn {
+      padding: 12px 25px;
+      background-color: #3065F8;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .btn:hover {
+      background-color: #6B93F8;
+    }
+    .orta {
+      background-color: #F8F8FE;
+      padding: 60px 0;
+    }
+    .orta-container {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      gap: 40px;
+    }
+    .orta-content {
+      flex: 1;
+    }
+    .orta-image {
+      flex: 1;
+    }
+    .orta-image img {
+      width: 100%;
+      height: auto;
+    }
+    h2 {
+      font-size: 30px;
+      margin-bottom: 20px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+    }
+    .orta-content p {
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+    .link {
+      display: inline-flex;
+      align-items: center;
+      color: #3C9F8F;
+      text-decoration: none;
+      border-bottom: 1px solid #3C9F8F;
+      padding-bottom: 5px;
+      margin-bottom: 30px;
+    }
+    .link:after {
+      content: " →";
+      margin-left: 5px;
+    }
+    .link:hover {
+      color: #2A7A6B;
+      border-bottom-color: #2A7A6B;
+    }
+    .profil {
+      background-color: white;
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 350px;
+      margin-top: 30px;
+    }
+    .profil p {
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+    .profil-insan {
+      display: flex;
+      align-items: center;
+    }
+    .profil-insan img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    .insan-info h4 {
+      font-size: 14px;
+      margin-bottom: 3px;
+    }
+    .insan-info p {
+      font-size: 12px;
+      margin: 0;
+    }
+    .orta-2 {
+      background-color: #585989;
+      color: white;
+      padding: 60px 0;
+    }
+    .orta-2-container {
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+    }
+    .orta-2-content {
+      flex: 1;
+      max-width: 550px;
+    }
+    .orta-2-form {
+      flex: 1;
+      max-width: 550px;
+    }
+    .orta-2 h2 {
+      color: white;
+      margin-bottom: 20px;
+    }
+    .orta-2 p {
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+    .orta-2 .form-control, 
+    .orta-2 .btn {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    footer{
+      background-color: #07043B;
+      color: white;
+      padding: 60px 0;
+    }
+    .asagi-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 30px;
+    }
+    .asagi-logo {
+      filter: brightness(0) invert(1);
+      width: 120px;
+      margin-bottom: 30px;
+    }
+    .asagi-stn {
+      min-width: 200px;
+    }
+    .contact-info {
+      list-style: none;
+    }
+    .contact-info li {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+    .contact-icon {
+      margin-right: 15px;
+      font-weight: bold;
+    }
+    .asagi-links {
+      list-style: none;
+    }
+    .asagi-links li {
+      margin-bottom: 15px;
+    }
+    .asagi-links a {
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    .asagi-links a:hover {
+      color: #3065F8;
+    }
+    .social-links {
+      display: flex;
+      list-style: none;
+      gap: 15px;
+    }
+    .social-links li {
+      width: 30px;
+      height: 30px;
+      border: 1px solid white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s;
+    }
+    .social-links li:hover {
+      border-color: #3065F8;
+    }
+    .social-links a {
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: color 0.3s;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .social-links a:hover {
+      color: #3065F8;
+    }
+    @media screen and (max-width: 768px) {
+      h1 {
+        font-size: 28px;
+      }
+      h2 {
+        font-size: 24px;
+      }
+      .ust, 
+      .orta-container {
+        flex-direction: column;
+      }
+      .orta-2-container {
+        flex-direction: column;
+      }
+      .profil {
+        max-width: 100%;
+      }
+    }
